@@ -18,11 +18,6 @@
       </div>
     </div>
 
-    <!-- Bouton Ajouter suggestion -->
-    <button routerLink="/add-suggestion" class="btn btn-primary">
-      Ajouter suggestion
-    </button>
-
     <!-- Affichage des suggestions -->
     <div class="suggestions-grid">
       <div 
@@ -72,12 +67,6 @@
             (click)="viewDetails(suggestion)"
           >
             📋 Details
-          </button>
-          <button 
-            class="btn btn-delete" 
-            (click)="deleteSuggestion(suggestion)"
-          >
-            🗑️ Supprimer
           </button>
         </div>
 
