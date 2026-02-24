@@ -1,27 +1,123 @@
-# Angular
+# 🚀 Angular Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+A modern Angular web application built using Angular CLI. This project is structured for scalability, clean architecture, and easy development.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📌 Project Overview
 
-## Code scaffolding
+This project is developed with **Angular** and follows standard best practices including modular structure, component-based architecture, and organized styling.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+It can be used as a starter template or as a base for further development.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Technologies Used
 
-## Running unit tests
+* Angular
+* TypeScript
+* HTML5
+* CSS3 / SCSS
+* Node.js
+* npm
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## ⚙️ Installation & Setup
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Follow these steps to run the project locally:
 
-## Further help
+### 1️⃣ Clone or Download the Project
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+git clone <your-repository-url>
+cd project-folder
+```
+
+Or extract the ZIP file and open the folder in your terminal.
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the Development Server
+
+```bash
+ng serve
+```
+
+OR
+
+```bash
+npm start
+```
+
+### 4️⃣ Open in Browser
+
+Navigate to:
+
+```
+http://localhost:4200/
+```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── app/
+ │    ├── components/
+ │    ├── services/
+ │    ├── models/
+ │    └── app.module.ts
+ ├── assets/
+ ├── environments/
+ └── index.html
+```
+
+---
+
+## 🧪 Build for Production
+
+To build the project for production:
+
+```bash
+ng build --configuration production
+```
+
+The build files will be stored in the `dist/` directory.
+
+---
+
+## 🧹 Troubleshooting
+
+If you encounter dependency issues:
+
+```bash
+rm -rf node_modules package-lock.json
+npm install
+```
+
+---
+
+## 📈 Future Improvements
+
+* Add authentication
+* Connect to backend API
+* Improve UI/UX
+* Add unit testing
+
+---
+
+## 👨‍💻 Author
+
+Developed as part of an Angular project.
+
+---
+
+## 📄 License
+
+This project is for educational purposes.
